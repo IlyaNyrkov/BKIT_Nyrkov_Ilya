@@ -10,3 +10,16 @@ lab3 <a href="https://github.com/IlyaNyrkov/BKIT_Nyrkov_Ilya/tree/master/lab3">V
 lab4 <a href="https://github.com/IlyaNyrkov/BKIT_Nyrkov_Ilya/tree/master/lab4">Delegates and reflection</a> </br>
 lab5 <a href="https://github.com/IlyaNyrkov/BKIT_Nyrkov_Ilya/tree/master/lab5">LINQ to objects</a> </br>
 homework <a href="https://github.com/IlyaNyrkov/BKIT_Nyrkov_Ilya/tree/master/unity-homework">Simple unity game</a> </br>
+
+# How to build
+## On linux
+learn how to <a href="https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu">install .Net on Ubuntu</a> </br>
+using bash script which builds .exe files and runs it with mono </br>
+```
+sudo apt install mono-complete
+```
+build and run c# program from file (works on every lab)
+```
+./build_c#_prog <.exe file name> <path to .cs file>
+```
+
