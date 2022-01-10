@@ -92,7 +92,7 @@ namespace laba1
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("No coefficients");
+                Console.Write("No coefficients\n");
             }
             Console.ResetColor();
         }
