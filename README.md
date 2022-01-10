@@ -18,8 +18,26 @@ using bash script which builds .exe files and runs it with mono </br>
 ```
 sudo apt install mono-complete
 ```
-build and run c# program from file (works on every lab)
-```
-./build_c#_prog <.exe file name> <path to .cs file>
-```
+## Make file commands
 
+build all labs
+```
+make build_all
+```
+build specific lab
+```
+make build_lab<lab_number>
+```
+only exception is lab4
+```
+make build_lab4_pt1
+make build_lab4_pt2
+```
+run lab
+```
+make run_lab<lab_number>
+```
+clean executables
+```
+make clean_all
+```
